@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lesson Attendance System</title>
+  <meta name="description" content="Professional Attendance Web App for Lessons or Classes">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.3/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <!-- HEADER -->
+  <header class="bg-blue-700 text-white shadow py-4">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+      <h1 class="text-2xl font-bold">Lesson Attendance</h1>
+      <nav class="mt-2 md:mt-0">
+        <button id="nav-checkin" class="px-4 py-2 rounded hover:bg-blue-600 focus:outline-none">Check-In</button>
+        <button id="nav-dashboard" class="px-4 py-2 rounded hover:bg-blue-600 focus:outline-none">Dashboard</button>
+        <button id="nav-admin" class="px-4 py-2 rounded hover:bg-blue-600 focus:outline-none">Admin</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container mx-auto px-4 py-8" id="main-content">
+    <!-- Content loads here by JS -->
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-700 text-white mt-10 py-4 text-center">
+    &copy; 2025 Lesson Attendance. Built by Hannnx.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
